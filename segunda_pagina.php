@@ -11,7 +11,7 @@
     $nombre="Rodrigo";
     $edad=35;
 
-    Print "El nombre del usuario es " . $nombre;
+    print "El nombre del usuario es " . $nombre;
     echo " y su edad es " . $edad . " años";
     /*echo $nombre,$edad; */ //echo permite mostrar en pantalla varias variales seguidas //
 
