@@ -26,7 +26,7 @@
 
 <?php
 
-    if(isset($_POST["enviado"])){
+    if(isset($_POST["edad_usuario"])){
 
         $edad=$_POST["edad_usuario"];
 
