@@ -41,8 +41,8 @@
          }else if($edad<=65){
 
              echo "Eres maduro";
-
-
+        } else {
+            echo "Eres viejo";
         }
 
 
