@@ -11,16 +11,24 @@
 
 <?php
 
-    define ("AUTOR", "Rodrigo", true);
+    $var1=true;
+    $var2=false;
 
-    //echo "El autor es : " . AUTOR;//
+    $resultado=$var1 && $var2;
 
-    echo "La línea de esta instrucción es: " . __LINE__ . "<br>";
+    if($resultado==true) {
 
-    echo "Estamos trabajando con este ficheroo: " . __FILE__;
+        echo "Correcto";
+
+
+    }else{
+
+        echo "Incorrecto";
+
+    }
+
 ?>
 
 
 </body>
 </html>
-

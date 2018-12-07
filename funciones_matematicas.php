@@ -11,16 +11,13 @@
 
 <?php
 
-    define ("AUTOR", "Rodrigo", true);
 
-    //echo "El autor es : " . AUTOR;//
+     $num1=pow(5,3);
 
-    echo "La línea de esta instrucción es: " . __LINE__ . "<br>";
+    echo "El número es: " . $num1;
 
-    echo "Estamos trabajando con este ficheroo: " . __FILE__;
+    //$num1=rand(10,50);//
 ?>
-
 
 </body>
 </html>
-
